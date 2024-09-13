@@ -1,0 +1,11 @@
+To address the challenges posed by imbalanced datasets in intrusion detection systems (IDS), this project proposes a comprehensive solution that combines data balancing techniques with advanced machine learning and deep learning algorithms. The proposed solution focuses on enhancing the accuracy and reliability of the IDS by ensuring a more balanced representation of minority classes, which are often underrepresented in typical network traffic data.
+Difficult Set Sampling Technique (DSSTE):
+Identification of Difficult Samples: The DSSTE algorithm will first identify the minority class samples that are difficult to classify and have low prediction confidence. These samples are critical as they represent the most challenging instances for the model to learn from.
+Creation of Representative Subset: A subset of representative samples capturing the complexity and variability of the minority class will be created. This subset will serve as the foundation for generating synthetic samples.
+Oversampling Techniques:
+Synthetic Minority Over-sampling Technique (SMOTE): SMOTE will be employed to generate synthetic samples by interpolating between existing minority class samples. This technique helps to increase the representation of the minority class without simply duplicating existing samples.
+Machine Learning and Deep Learning Algorithms:
+Random Forest: This ensemble learning method will be utilized to capture the complexities in the data through multiple decision trees, providing robust and accurate predictions.
+XGBoost: An advanced gradient boosting algorithm, XGBoost, will be employed for its efficiency and effectiveness in handling large datasets and complex patterns.
+User-Friendly Interface:
+Development with HTML,CSS and Flask: The final product will include a user-friendly interface built using HTML and CSS for the graphical user interface (GUI) and Flask for backend integration. This interface will allow users to input a network address and receive detailed information about detected intrusions, making the system accessible and easy to use.
