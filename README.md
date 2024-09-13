@@ -1,0 +1,2 @@
+# -Intrusion-detection-of-imbalanced-network-traffic-using-machine-learning
+The objective of this project is to build an effective intrusion detection system capable of accurately classifying and identifying various intrusion types using the NSL-KDD datasets. A primary focus of the project is addressing class imbalance, which will be managed through the Difficult Set Sampling Technique (DSSTE) algorithm.
